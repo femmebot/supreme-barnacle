@@ -1,0 +1,84 @@
+/*
+Error: Undefined variable: "$opacity-palettes".
+        on line 21 of scss/utilities/rules/opacity.scss
+
+16: 
+17: $u-opacity: (
+18:   opacity: (
+19:     base: "opacity",
+20:     modifiers: null,
+21:     values: map-collect(get-palettes($opacity-palettes), $opacity-manual-values),
+22:     settings: $opacity-settings,
+23:     property: "opacity",
+24:     type: "utility",
+25:   ),
+26: );
+
+Backtrace:
+scss/utilities/rules/opacity.scss:21
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:173:in `perform_arg'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:124:in `block in _perform'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:124:in `each'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:124:in `each_with_index'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:124:in `each'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:124:in `map'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:124:in `_perform'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:173:in `perform_arg'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:124:in `block in _perform'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:124:in `each'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:124:in `each_with_index'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:124:in `each'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:124:in `map'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:124:in `_perform'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/map_literal.rb:53:in `block in _perform'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/map_literal.rb:52:in `map'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/map_literal.rb:52:in `_perform'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/map_literal.rb:53:in `block in _perform'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/map_literal.rb:52:in `map'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/map_literal.rb:52:in `_perform'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:472:in `visit_variable'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/engine.rb:384:in `_render_with_sourcemap'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/engine.rb:301:in `render_with_sourcemap'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:294:in `watch'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/plugin.rb:109:in `method_missing'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/exec/base.rb:52:in `parse'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/lib/sass/exec/base.rb:19:in `parse!'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/gems/sass-3.4.25/bin/sass:13:in `<top (required)>'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/bin/sass:26:in `load'
+/Users/phoebe/.rvm/gems/ruby-2.1.2/bin/sass:26:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$opacity-palettes\".\A         on line 21 of scss/utilities/rules/opacity.scss\A \A 16: \A 17: $u-opacity: (\A 18:   opacity: (\A 19:     base: \"opacity\",\A 20:     modifiers: null,\A 21:     values: map-collect(get-palettes($opacity-palettes), $opacity-manual-values),\A 22:     settings: $opacity-settings,\A 23:     property: \"opacity\",\A 24:     type: \"utility\",\A 25:   ),\A 26: );"; }
